@@ -1,4 +1,4 @@
-WKHTMLTOPDF_PATH = File.expand_path "../../bin/wkhtmltopdf-linux-amd64", __FILE__
+WKHTMLTOPDF_PATH = File.expand_path "../../bin/wkhtmltopdf-ubuntu-1804-amd64", __FILE__
 
 begin
   require 'pdfkit'

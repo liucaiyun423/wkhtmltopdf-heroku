@@ -18,7 +18,7 @@ Gem::Specification.new do |s|
     "LICENSE.txt",
     "README.mdown",
     "VERSION",
-    "bin/wkhtmltopdf-linux-amd64",
+    "bin/wkhtmltopdf-ubuntu-1804-amd64",
     "lib/wkhtmltopdf-heroku.rb",
     "wkhtmltopdf-heroku.gemspec"
   ]
@@ -26,6 +26,6 @@ Gem::Specification.new do |s|
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
   s.rubygems_version = "1.8.15"
-  s.summary = "provides wkhtmltopdf binaries for heroku cedar-14 stack"
+  s.summary = "provides wkhtmltopdf binaries for heroku-18 stack"
 end
 
